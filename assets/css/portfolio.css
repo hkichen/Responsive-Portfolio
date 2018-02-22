@@ -1,0 +1,53 @@
+#images {
+    min-height: 74%;
+    background: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    margin-bottom: 20px;
+    width: 650px;
+    float: left;
+    overflow: auto;
+}
+
+#images > img {
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    display: inline;
+}
+h4 {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 18;
+    padding: 10;
+    width: 230;
+    margin-left: 15;
+    text-align: center;
+}
+
+.container1, .container2, .container3, .container4, .container5 {
+    margin-left: 15px;
+    width: 250px;
+}
+#text-block1, #text-block2, #text-block3, #text-block4, #text-block5 {
+    position: relative;
+    top: -44px;
+    left: -15px;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+}
+
+.column2 {
+    float: right;
+    width: 50%;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+
