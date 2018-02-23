@@ -31,7 +31,7 @@ header {
 	padding-top: 20px;
 	font-size: 28px;
 	height: 52px;
-	position: fixed;
+	position: relative;
 	left: 0;
 	top: 0;
 	border-bottom-style: solid;
@@ -80,7 +80,7 @@ li a:hover {
 	width: 960px;
 	position: relative;
 	height: 100%;
-	margin-top: 100px;
+	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -153,3 +153,11 @@ footer {
 	border-top-width: 15px;
 
 }
+
+@media screen and (max-width: 980px) {
+	
+	}
+
+	}
+}
+
