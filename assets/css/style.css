@@ -187,9 +187,9 @@ p {
 	}
 
 	body .column1, body .column2 {
-		width: 100%;
-		float: left;
-		margin-left: 50px;
+		width: 600px;
+		float: none;
+		padding-left: 140px;
 	}
 
 	#footer {
