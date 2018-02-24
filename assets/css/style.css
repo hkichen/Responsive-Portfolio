@@ -2,9 +2,6 @@ html {
 	height: 100%;
 }
 
-.wrapper {
-	position: relative;
-}
 body {
 	position: relative;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -138,7 +135,7 @@ p {
 	padding-bottom: 20px;
 }
 
-footer {
+#footer {
 	clear: both;
 	position: fixed;
 	bottom: 0;
@@ -155,9 +152,54 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-	
+	body header {
+		width: 980px;
+	}
+	 body .main-content, #bio {
+		width: 588px;
+		overflow: auto;
+	}
+	#contact {
+		width: 588px;
 	}
 
+	body .row {
+		margin-left: 9px;
+	}
+
+	body #images, #contact-form {
+		width: 588px;
+	}
+	.selfie {
+		margin-left: 15px;
+		margin-right: 50px;
+		padding-bottom: 20px;
+		width: 500px;
+		height: 500px;
+	}
+
+	.container {
+		width: 588px;
+	}
+
+	p {
+		clear: both;
+		width: 90%;
+		padding-bottom: 30px;
+	}
+
+	footer {
+		clear: both;
 	}
 }
 
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+	.selfie {
+		width: 450px;
+		height
+	}
+}

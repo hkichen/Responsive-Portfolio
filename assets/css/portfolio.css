@@ -10,6 +10,10 @@
     overflow: auto;
 }
 
+.row {
+    margin-left: 29px;
+}
+
 #images > img {
     padding: 15px 15px 15px 15px;
     position: relative;
