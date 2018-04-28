@@ -8,6 +8,8 @@ body {
 	color: #777777;
 	background-image: url(../images/mooning_@2X.png);
 	height: 100%;
+	margin-bottom: 100px;
+	min-height: 1000px;
 }
 
 #header {
